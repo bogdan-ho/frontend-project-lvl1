@@ -1,6 +1,6 @@
 {
   "name": "@hexlet/code",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "type": "module",
   "description": "[![Actions Status](https://github.com/bogdan-ho/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/bogdan-ho/frontend-project-lvl1/actions)",
   "bin": {
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/bogdan-ho/frontend-project-lvl1.git"
   },
-  "author": "",
+  "author": "Bogdan Homoretsky",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bogdan-ho/frontend-project-lvl1/issues"
