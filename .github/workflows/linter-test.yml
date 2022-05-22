@@ -9,5 +9,4 @@ jobs:
         with:
           node-version: latest
           cache: 'npm'
-      - name: run ESLint testing
       - run: make lint
