@@ -1,7 +1,7 @@
-name: ESLint test
+name: eslint-test
 on: [push]
 jobs:
-  ESLint test:
+  eslint-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
