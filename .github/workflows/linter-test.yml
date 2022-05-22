@@ -9,4 +9,5 @@ jobs:
         with:
           node-version: latest
           cache: 'npm'
+      - run: make install
       - run: make lint
