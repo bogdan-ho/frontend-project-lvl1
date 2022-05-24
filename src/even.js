@@ -1,5 +1,6 @@
 import readlineSync from 'readline-sync';
 
+// Определение функции приветствия и запроса имени
 const cli = () => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
@@ -7,15 +8,17 @@ const cli = () => {
   return name;
 };
 
+// Определение функции генерации случайных чисел
 const generateRandomNumber = () => {
   const maxNum = 99;
   return Math.floor(Math.random() * maxNum);
 };
 
+// Определение функции игры на четность
 const evenGame = () => {
+  const name = cli();
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
-  const name = cli();
   for (let i = 1; i <= 3;) {
     const randomNumber = generateRandomNumber();
 
