@@ -3,6 +3,7 @@ import getAnswer from './get-answer.js';
 import * as calc from '../games/calc.js';
 import * as even from '../games/even.js';
 import * as gcd from '../games/gcd.js';
+import * as progression from '../games/progression.js';
 
 // Определение функции игры "Калькулятор"
 const game = (gameSort) => {
@@ -15,6 +16,9 @@ const game = (gameSort) => {
   }
   if (gameSort === 'gcd') {
     gameType = gcd;
+  }
+  if (gameSort === 'progression') {
+    gameType = progression;
   }
 
   const name = cli();

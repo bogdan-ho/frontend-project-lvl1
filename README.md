@@ -23,3 +23,9 @@
 Суть игры в следующем: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 
 [![asciicast](https://asciinema.org/a/JMbVmzIX7R5qhRwE0F3YFAb1M.svg)](https://asciinema.org/a/JMbVmzIX7R5qhRwE0F3YFAb1M)
+
+### Brain-progression:
+#### Игра: "Арифметическая прогрессия"
+Суть игры в следующем: пользователю показывается ряд чисел, образующий арифметическую прогрессию, любое из чисел заменено двумя точками. Игрок должен определить это число.
+
+[![asciicast](https://asciinema.org/a/JMbVmzIX7R5qhRwE0F3YFAb1M.svg)](https://asciinema.org/a/JMbVmzIX7R5qhRwE0F3YFAb1M)
