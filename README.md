@@ -5,3 +5,6 @@
 
 ### Brain-games:
 [![asciicast](https://asciinema.org/a/BogJPczuHRofgiU53t5Uoqx2f.svg)](https://asciinema.org/a/BogJPczuHRofgiU53t5Uoqx2f)
+
+### Brain-calc:
+[![asciicast](https://asciinema.org/a/AjBT2BAG1sBOiQUOKRas5TYPb.svg)](https://asciinema.org/a/AjBT2BAG1sBOiQUOKRas5TYPb)

@@ -2,4 +2,4 @@
 
 import game from '../src/index.js';
 
-game('even');
+game('calc');
