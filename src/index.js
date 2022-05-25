@@ -6,8 +6,7 @@ import * as gcd from '../games/gcd.js';
 import * as progression from '../games/progression.js';
 import * as prime from '../games/prime.js';
 
-// Определение функции игры "Калькулятор"
-const game = (gameSort) => {
+const startGame = (gameSort) => {
   let gameType = gameSort;
   if (gameSort === 'calc') gameType = calc;
   if (gameSort === 'even') gameType = even;
@@ -38,4 +37,4 @@ const game = (gameSort) => {
   return console.log(`Congratulations, ${name}!`);
 };
 
-export default game;
+export default startGame;
