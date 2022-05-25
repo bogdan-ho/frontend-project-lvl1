@@ -2,6 +2,7 @@ import cli from './cli.js';
 import getAnswer from './get-answer.js';
 import * as calc from '../games/calc.js';
 import * as even from '../games/even.js';
+import * as gcd from '../games/gcd.js';
 
 // Определение функции игры "Калькулятор"
 const game = (gameSort) => {
@@ -11,6 +12,9 @@ const game = (gameSort) => {
   }
   if (gameSort === 'even') {
     gameType = even;
+  }
+  if (gameSort === 'gcd') {
+    gameType = gcd;
   }
 
   const name = cli();
