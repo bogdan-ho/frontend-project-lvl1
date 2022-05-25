@@ -4,22 +4,16 @@ import * as calc from '../games/calc.js';
 import * as even from '../games/even.js';
 import * as gcd from '../games/gcd.js';
 import * as progression from '../games/progression.js';
+import * as prime from '../games/prime.js';
 
 // Определение функции игры "Калькулятор"
 const game = (gameSort) => {
   let gameType = gameSort;
-  if (gameSort === 'calc') {
-    gameType = calc;
-  }
-  if (gameSort === 'even') {
-    gameType = even;
-  }
-  if (gameSort === 'gcd') {
-    gameType = gcd;
-  }
-  if (gameSort === 'progression') {
-    gameType = progression;
-  }
+  if (gameSort === 'calc') gameType = calc;
+  if (gameSort === 'even') gameType = even;
+  if (gameSort === 'gcd') gameType = gcd;
+  if (gameSort === 'progression') gameType = progression;
+  if (gameSort === 'prime') gameType = prime;
 
   const name = cli();
 
