@@ -1,25 +1,13 @@
 import cli from './cli.js';
-import getAnswer from './get-answer.js';
-import * as calc from '../games/calc.js';
-import * as even from '../games/even.js';
-import * as gcd from '../games/gcd.js';
-import * as progression from '../games/progression.js';
-import * as prime from '../games/prime.js';
+import getAnswer from './getAnswer.js';
 
-const startGame = (gameSort) => {
-  let gameType = gameSort;
-  if (gameSort === 'calc') gameType = calc;
-  if (gameSort === 'even') gameType = even;
-  if (gameSort === 'gcd') gameType = gcd;
-  if (gameSort === 'progression') gameType = progression;
-  if (gameSort === 'prime') gameType = prime;
-
+const startGame = (explanation, generateRound) => {
   const name = cli();
 
-  console.log(gameType.explanation);
+  console.log(explanation);
 
   for (let i = 1; i <= 3;) {
-    const [question, correctAnswer] = gameType.generateRound();
+    const [question, correctAnswer] = generateRound();
 
     console.log(question);
 

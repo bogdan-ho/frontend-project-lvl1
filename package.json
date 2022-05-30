@@ -4,12 +4,12 @@
   "type": "module",
   "description": "[![Actions Status](https://github.com/bogdan-ho/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/bogdan-ho/frontend-project-lvl1/actions)",
   "bin": {
-    "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js",
-    "brain-calc": "bin/brain-calc.js",
-    "brain-gcd": "bin/brain-gcd.js",
-    "brain-progression": "bin/brain-progression.js",
-    "brain-prime": "bin/brain-prime.js"
+    "brain-games": "bin/brainGames.js",
+    "brain-even": "bin/brainEven.js",
+    "brain-calc": "bin/brainCalc.js",
+    "brain-gcd": "bin/brainGcd.js",
+    "brain-progression": "bin/brainProgression.js",
+    "brain-prime": "bin/brainPrime.js"
   },
   "main": "index.js",
   "scripts": {

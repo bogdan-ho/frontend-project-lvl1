@@ -1,12 +1,12 @@
-import generateNumber from '../src/generate-number.js';
-import generateNumberBetween from '../src/generate-number-between.js';
+import generateRandomNumber from '../gameCoreHelpers.js';
+import startGame from '../index.js';
 
-export const explanation = 'What number is missing in the progression?';
+const explanation = 'What number is missing in the progression?';
 
-export const generateRound = () => {
-  const progressionLength = generateNumberBetween(5, 10);
-  const progressionStart = generateNumberBetween(2, 15);
-  const progressionIncrease = generateNumberBetween(2, 6);
+const generateRound = () => {
+  const progressionLength = generateRandomNumber(10, 5);
+  const progressionStart = generateRandomNumber(15, 2);
+  const progressionIncrease = generateRandomNumber(6, 2);
   const progression = [];
 
   for (let i = 1; i <= progressionLength; i += 1) {
@@ -15,7 +15,7 @@ export const generateRound = () => {
   }
 
   const lastProgressionIndex = progressionLength - 1;
-  const indexForDelete = generateNumber(lastProgressionIndex);
+  const indexForDelete = generateRandomNumber(lastProgressionIndex);
   const correctAnswer = String(progression[indexForDelete]);
 
   progression[indexForDelete] = '..';
@@ -29,3 +29,7 @@ export const generateRound = () => {
 
   return [question, correctAnswer];
 };
+
+const brainProgression = () => startGame(explanation, generateRound);
+
+export default brainProgression;
