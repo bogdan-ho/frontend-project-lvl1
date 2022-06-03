@@ -4,13 +4,18 @@
 [![eslint-test](https://github.com/bogdan-ho/frontend-project-lvl1/actions/workflows/linter-test.yml/badge.svg)](https://github.com/bogdan-ho/frontend-project-lvl1/actions/workflows/linter-test.yml)
 
 ### Brain-games install
-Клонируйте репозиторий и используйте комманду `make install`
+- Клонируете репозиторий
+- Переходите в корневую директорию проекта 'cd frontend-project-lvl1/'
+- Используйте комманду 'make install'
+- Установите пакет в систему с помощью 'npm link'. Может потребовать запуск с 'sudo'.
+
+[![asciicast](https://asciinema.org/a/gtmTGGvlqOkEpfrVx5Iuv87o6.svg)](https://asciinema.org/a/gtmTGGvlqOkEpfrVx5Iuv87o6)
 
 ### Brain-even:
 #### Игра: "Проверка на чётность"
 Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
 
-[![asciicast](https://asciinema.org/a/BogJPczuHRofgiU53t5Uoqx2f.svg)](https://asciinema.org/a/BogJPczuHRofgiU53t5Uoqx2f)
+[![asciicast](https://asciinema.org/a/4BqGTShtW6JUM2y3VM5lxkFjg.svg)](https://asciinema.org/a/4BqGTShtW6JUM2y3VM5lxkFjg)
 
 ### Brain-calc:
 #### Игра: "Калькулятор"
