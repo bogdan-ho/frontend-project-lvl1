@@ -6,7 +6,7 @@ const startGame = (explanation, generateRound) => {
 
   console.log(explanation);
 
-  for (let i = 1; i <= 3;) {
+  for (let i = 1; i <= 3; i += 1) {
     const [question, correctAnswer] = generateRound();
 
     console.log(question);
@@ -15,7 +15,6 @@ const startGame = (explanation, generateRound) => {
 
     if (correctAnswer === userAnswer) {
       console.log('Correct!');
-      i += 1;
     } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       return console.log(`Let's try again, ${name}!`);
