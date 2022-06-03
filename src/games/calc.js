@@ -12,22 +12,20 @@ const generateRound = () => {
 
   const question = `Question: ${randomNumber1} ${operation} ${randomNumber2}`;
 
-  let correctAnswer = null;
-  switch (operation) {
-    case '*':
-      correctAnswer = randomNumber1 * randomNumber2;
-      break;
-    case '+':
-      correctAnswer = randomNumber1 + randomNumber2;
-      break;
-    case '-':
-      correctAnswer = randomNumber1 - randomNumber2;
-      break;
-    default:
-      console.error(`Передан неправильный оператор: ${operation}`);
-  }
+  const takeCorrectAnswer = (operationType) => {
+    switch (operationType) {
+      case '*':
+        return randomNumber1 * randomNumber2;
+      case '+':
+        return randomNumber1 + randomNumber2;
+      case '-':
+        return randomNumber1 - randomNumber2;
+      default:
+        return console.error(`Передан неправильный оператор: ${operation}`);
+    }
+  };
 
-  correctAnswer = String(correctAnswer);
+  const correctAnswer = String(takeCorrectAnswer(operation));
 
   return [question, correctAnswer];
 };
