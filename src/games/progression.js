@@ -20,10 +20,7 @@ const generateRound = () => {
 
   progression[indexForDelete] = '..';
 
-  let progressionString = '';
-  for (let i = 0; i <= lastProgressionIndex; i += 1) {
-    progressionString += `${progression[i]} `;
-  }
+  const progressionString = progression.join(' ');
 
   const question = `Question: ${progressionString}`;
 
