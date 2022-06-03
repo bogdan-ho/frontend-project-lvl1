@@ -5,9 +5,9 @@
 
 ### Brain-games install
 - Клонируете репозиторий
-- Переходите в корневую директорию проекта 'cd frontend-project-lvl1/'
-- Используйте комманду 'make install'
-- Установите пакет в систему с помощью 'npm link'. Может потребовать запуск с 'sudo'.
+- Переходите в корневую директорию проекта `cd frontend-project-lvl1/`
+- Используйте комманду `make install`
+- Установите пакет в систему с помощью `npm link`. Может потребовать запуск с `sudo`.
 
 [![asciicast](https://asciinema.org/a/gtmTGGvlqOkEpfrVx5Iuv87o6.svg)](https://asciinema.org/a/gtmTGGvlqOkEpfrVx5Iuv87o6)
 
