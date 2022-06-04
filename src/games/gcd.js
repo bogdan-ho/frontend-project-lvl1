@@ -4,8 +4,8 @@ import startGame from '../index.js';
 const explanation = 'Find the greatest common divisor of given numbers.';
 
 const generateRound = () => {
-  const randomNumber1 = generateRandomNumber(100);
-  const randomNumber2 = generateRandomNumber(100);
+  const randomNumber1 = generateRandomNumber(100, 1);
+  const randomNumber2 = generateRandomNumber(100, 1);
   const commonDivisorsStack = [];
 
   for (let i = 1; i <= randomNumber1 && i <= randomNumber2; i += 1) {
