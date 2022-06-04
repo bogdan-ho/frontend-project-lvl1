@@ -33,10 +33,10 @@
 #### Игра: "Арифметическая прогрессия"
 Суть игры в следующем: пользователю показывается ряд чисел, образующий арифметическую прогрессию, любое из чисел заменено двумя точками. Игрок должен определить это число.
 
-[![asciicast](https://asciinema.org/a/JMbVmzIX7R5qhRwE0F3YFAb1M.svg)](https://asciinema.org/a/JMbVmzIX7R5qhRwE0F3YFAb1M)
+[![asciicast](https://asciinema.org/a/tqfE9B8AxK5b8yaCRth9K0y7D.svg)](https://asciinema.org/a/tqfE9B8AxK5b8yaCRth9K0y7D)
 
 ### Brain-prime:
 #### Игра: "Простое ли число?"
 Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число простое, или no — если непростое. Например, число 2 простое (делится на 1 и на 2), а 4 не является простым, так как, помимо 1 и 4, делится на 2 — имеет три натуральных делителя.
 
-[![asciicast](https://asciinema.org/a/JMbVmzIX7R5qhRwE0F3YFAb1M.svg)](https://asciinema.org/a/JMbVmzIX7R5qhRwE0F3YFAb1M)
+[![asciicast](https://asciinema.org/a/DPgO2rswbKJ3Chtd336wlwx4Z.svg)](https://asciinema.org/a/DPgO2rswbKJ3Chtd336wlwx4Z)
