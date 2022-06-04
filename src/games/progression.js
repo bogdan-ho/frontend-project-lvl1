@@ -15,10 +15,10 @@ const generateRound = () => {
   }
 
   const lastProgressionIndex = progressionLength - 1;
-  const indexForDelete = generateRandomNumber(lastProgressionIndex);
-  const correctAnswer = String(progression[indexForDelete]);
+  const deletionIndex = generateRandomNumber(lastProgressionIndex);
+  const correctAnswer = String(progression[deletionIndex]);
 
-  progression[indexForDelete] = '..';
+  progression[deletionIndex] = '..';
 
   const progressionString = progression.join(' ');
 
