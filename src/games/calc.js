@@ -12,7 +12,7 @@ const generateRound = () => {
 
   const question = `Question: ${randomNumber1} ${operation} ${randomNumber2}`;
 
-  const takeCorrectAnswer = (operationType) => {
+  const performCalculation = (operationType) => {
     switch (operationType) {
       case '*':
         return randomNumber1 * randomNumber2;
@@ -25,7 +25,7 @@ const generateRound = () => {
     }
   };
 
-  const correctAnswer = String(takeCorrectAnswer(operation));
+  const correctAnswer = String(performCalculation(operation));
 
   return [question, correctAnswer];
 };
