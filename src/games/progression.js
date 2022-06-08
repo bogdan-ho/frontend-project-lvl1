@@ -16,7 +16,9 @@ const generateRound = () => {
 
   const lastProgressionIndex = progressionLength - 1;
   const deletionIndex = generateRandomNumber(lastProgressionIndex);
-  const correctAnswer = String(progression[deletionIndex]);
+
+  const numericAnswer = progression[deletionIndex];
+  const correctAnswer = String(numericAnswer);
 
   progression[deletionIndex] = '..';
 

@@ -5,6 +5,20 @@ const explanation = 'What is the result of the expression?';
 
 const operations = ['*', '+', '-'];
 
+const performCalculation = (operationType, number1, number2) => {
+  switch (operationType) {
+    case '*':
+      return number1 * number2;
+    case '+':
+      return number1 + number2;
+    case '-':
+      return number1 - number2;
+    default:
+      console.error(`Передан неправильный оператор: ${operationType}`);
+      return null;
+  }
+};
+
 const generateRound = () => {
   const randomNumber1 = generateRandomNumber(10);
   const randomNumber2 = generateRandomNumber(10);
@@ -12,20 +26,8 @@ const generateRound = () => {
 
   const question = `Question: ${randomNumber1} ${operation} ${randomNumber2}`;
 
-  const performCalculation = (operationType) => {
-    switch (operationType) {
-      case '*':
-        return randomNumber1 * randomNumber2;
-      case '+':
-        return randomNumber1 + randomNumber2;
-      case '-':
-        return randomNumber1 - randomNumber2;
-      default:
-        return console.error(`Передан неправильный оператор: ${operation}`);
-    }
-  };
-
-  const correctAnswer = String(performCalculation(operation));
+  const numericAnswer = performCalculation(operation, randomNumber1, randomNumber2);
+  const correctAnswer = String(numericAnswer);
 
   return [question, correctAnswer];
 };

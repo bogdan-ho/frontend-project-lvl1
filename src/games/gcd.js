@@ -14,7 +14,8 @@ const generateRound = () => {
     }
   }
 
-  const correctAnswer = String(commonDivisorsStack.pop());
+  const numericAnswer = commonDivisorsStack.pop();
+  const correctAnswer = String(numericAnswer);
   const question = `Question: ${randomNumber1} ${randomNumber2}`;
 
   return [question, correctAnswer];
