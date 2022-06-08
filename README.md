@@ -3,10 +3,16 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/d0dd51ba5b779f54468b/maintainability)](https://codeclimate.com/github/bogdan-ho/frontend-project-lvl1/maintainability)
 [![eslint-test](https://github.com/bogdan-ho/frontend-project-lvl1/actions/workflows/linter-test.yml/badge.svg)](https://github.com/bogdan-ho/frontend-project-lvl1/actions/workflows/linter-test.yml)
 
+### About
+Набор мини-игр, которые запускаются в консоли.
+
+### System requirements
+Node.js версии 13 и выше.
+
 ### Brain-games install
 - Клонируете репозиторий
 - Переходите в корневую директорию проекта `cd frontend-project-lvl1/`
-- Используйте комманду `make install`
+- Используйте команду `make install`
 - Установите пакет в систему с помощью `npm link`. Может потребовать запуск с `sudo`.
 
 [![asciicast](https://asciinema.org/a/gtmTGGvlqOkEpfrVx5Iuv87o6.svg)](https://asciinema.org/a/gtmTGGvlqOkEpfrVx5Iuv87o6)
