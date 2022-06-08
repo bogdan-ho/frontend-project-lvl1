@@ -1,4 +1,4 @@
-import generateRandomNumber from '../gameCoreHelpers.js';
+import { generateRandomNumber } from '../helpers.js';
 import startGame from '../index.js';
 
 const explanation = 'Find the greatest common divisor of given numbers.';

@@ -1,5 +1,5 @@
 import cli from './cli.js';
-import getAnswer from './getAnswer.js';
+import { getAnswer } from './helpers.js';
 
 const startGame = (explanation, generateRound) => {
   const name = cli();
