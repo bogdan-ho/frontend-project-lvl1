@@ -14,8 +14,7 @@ const performCalculation = (operationType, number1, number2) => {
     case '-':
       return number1 - number2;
     default:
-      console.error(`Передан неправильный оператор: ${operationType}`);
-      return null;
+      return console.error(`Передан неправильный оператор: ${operationType}`);
   }
 };
 
