@@ -6,9 +6,9 @@ const startGame = (explanation, generateRound) => {
 
   console.log(explanation);
 
-  const roundCount = 3;
+  const maxRoundCount = 3;
 
-  for (let i = 1; i <= roundCount; i += 1) {
+  for (let i = 1; i <= maxRoundCount; i += 1) {
     const [question, correctAnswer] = generateRound();
 
     console.log(question);
